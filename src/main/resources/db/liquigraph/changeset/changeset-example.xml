@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="http://www.liquigraph.org/schema/1.0/liquigraph.xsd">
+
+    <changeset id="add-unique-entity-constraint-point" author="lcichero">
+        <query>CREATE CONSTRAINT ON (n:Point) ASSERT n.uniqueIdentifier IS UNIQUE</query>
+    </changeset>
+</changelog>
